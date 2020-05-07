@@ -1,0 +1,95 @@
+{
+  "DefaultTemplate": "umb://template/04951ad83ef5476ebc00d1144b8ddc5b",
+  "AllowedTemplates": [
+    "umb://template/04951ad83ef5476ebc00d1144b8ddc5b"
+  ],
+  "Icon": "icon-calendar-alt color-black",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "IsContainer": true,
+  "Permissions": {
+    "AllowVaryingByCulture": false,
+    "AllowVaryingBySegment": false,
+    "AllowedAtRoot": false,
+    "IsElementType": false,
+    "AllowedChildContentTypes": [
+      "umb://document-type/a85ed5ae0a9d4278a19005405b216d08"
+    ]
+  },
+  "Parent": null,
+  "CompositionContentTypes": [
+    "umb://document-type/62af02171d81423cab2b764ec4a61b1e",
+    "umb://document-type/840959ce60a04d4dbcde6fa6c8270962"
+  ],
+  "PropertyGroups": [
+    {
+      "Key": "2a7ddd79-9b7a-4d83-b22f-9f77b5cf6abb",
+      "Name": "Settings",
+      "SortOrder": 0,
+      "PropertyTypes": [
+        {
+          "Key": "323e0717-bf49-4566-880b-559735dfdd06",
+          "Alias": "disqusShortname",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": "To use comments, you'll need to sign up for Disqus and enter your shortname here (more info: https://help.disqus.com/customer/portal/articles/472097-universal-embed-code)",
+          "Mandatory": false,
+          "Name": "Disqus Shortname",
+          "SortOrder": 1,
+          "Validation": null,
+          "VariesByCulture": false,
+          "VariesBySegment": false
+        },
+        {
+          "Key": "f3a470d9-d730-4b4e-b6c1-c53fb3955fe8",
+          "Alias": "howManyPostsShouldBeShown",
+          "DataType": "umb://data-type/9d5ba2c5ed7a41f8b4549fc65f48752e",
+          "Description": null,
+          "Mandatory": true,
+          "Name": "How many posts should be shown?",
+          "SortOrder": 0,
+          "Validation": null,
+          "VariesByCulture": false,
+          "VariesBySegment": false
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/a428a5fbf1854213b9e752b054062a4f",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/9d5ba2c5ed7a41f8b4549fc65f48752e",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/62af02171d81423cab2b764ec4a61b1e",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/840959ce60a04d4dbcde6fa6c8270962",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/a85ed5ae0a9d4278a19005405b216d08",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://template/04951ad83ef5476ebc00d1144b8ddc5b",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "Blog",
+  "Alias": "blog",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "3.4.4"
+}

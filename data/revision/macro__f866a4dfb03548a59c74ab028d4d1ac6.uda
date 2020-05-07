@@ -1,0 +1,37 @@
+{
+  "MacroType": 7,
+  "MacroSource": "~/Views/MacroPartials/LatestBlogposts.cshtml",
+  "UseInEditor": true,
+  "CacheDuration": 0,
+  "CacheByPage": false,
+  "CacheByMember": false,
+  "DontRender": false,
+  "Properties": [
+    {
+      "Key": "52b88e6e-a2b7-4874-be35-bd6fce577e7a",
+      "Alias": "startNodeId",
+      "Name": "Where to get blog posts from",
+      "SortOrder": 1,
+      "EditorAlias": "Umbraco.ContentPicker"
+    },
+    {
+      "Key": "754d12bd-5ee6-47df-a140-df6b2ac05a9a",
+      "Alias": "numberOfPosts",
+      "Name": "How many posts should be shown",
+      "SortOrder": 0,
+      "EditorAlias": "Umbraco.Integer"
+    }
+  ],
+  "Udi": "umb://macro/f866a4dfb03548a59c74ab028d4d1ac6",
+  "Dependencies": [
+    {
+      "Udi": "umb://partial-view-macro/LatestBlogposts.cshtml",
+      "Ordering": true,
+      "Mode": 1
+    }
+  ],
+  "Name": "Get Latest Blogposts",
+  "Alias": "latestBlogposts",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.MacroArtifact",
+  "__version": "3.4.4"
+}

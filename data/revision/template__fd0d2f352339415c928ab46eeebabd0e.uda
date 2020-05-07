@@ -1,0 +1,21 @@
+{
+  "File": "umb://template-file/Person.cshtml",
+  "Master": "umb://template/9a891e91ac76453196def0eaa8cde352",
+  "Udi": "umb://template/fd0d2f352339415c928ab46eeebabd0e",
+  "Dependencies": [
+    {
+      "Udi": "umb://template/9a891e91ac76453196def0eaa8cde352",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://template-file/Person.cshtml",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "Person",
+  "Alias": "Person",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.TemplateArtifact",
+  "__version": "3.4.4"
+}

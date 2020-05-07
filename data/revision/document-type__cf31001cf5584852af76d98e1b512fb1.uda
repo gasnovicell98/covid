@@ -1,0 +1,147 @@
+{
+  "DefaultTemplate": "umb://template/3da415b5c9fa45299014bb2341c14f4d",
+  "AllowedTemplates": [
+    "umb://template/3da415b5c9fa45299014bb2341c14f4d"
+  ],
+  "Icon": "icon-map-location color-black",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "IsContainer": false,
+  "Permissions": {
+    "AllowVaryingByCulture": false,
+    "AllowVaryingBySegment": false,
+    "AllowedAtRoot": false,
+    "IsElementType": false,
+    "AllowedChildContentTypes": []
+  },
+  "Parent": null,
+  "CompositionContentTypes": [
+    "umb://document-type/840959ce60a04d4dbcde6fa6c8270962"
+  ],
+  "PropertyGroups": [
+    {
+      "Key": "8fa7ce0d-003c-4df7-9352-76db6098e19c",
+      "Name": "Map",
+      "SortOrder": 1,
+      "PropertyTypes": [
+        {
+          "Key": "1f66bb9f-8444-4944-812b-040f7decb95e",
+          "Alias": "mapCoordinates",
+          "DataType": "umb://data-type/fc1475d27c7b4b2fbc5354c86fd43d6c",
+          "Description": null,
+          "Mandatory": false,
+          "Name": "Map Coordinates",
+          "SortOrder": 1,
+          "Validation": null,
+          "VariesByCulture": false,
+          "VariesBySegment": false
+        },
+        {
+          "Key": "5f48424d-c42a-44bf-8749-cacb4ca7c417",
+          "Alias": "mapHeader",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": null,
+          "Mandatory": false,
+          "Name": "Map Header",
+          "SortOrder": 0,
+          "Validation": null,
+          "VariesByCulture": false,
+          "VariesBySegment": false
+        }
+      ]
+    },
+    {
+      "Key": "9affdf5a-06cb-4676-977d-191d49a453cf",
+      "Name": "Form",
+      "SortOrder": 0,
+      "PropertyTypes": [
+        {
+          "Key": "00e1605e-585a-4088-b4ec-9d0b726567eb",
+          "Alias": "contactFormHeader",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": null,
+          "Mandatory": true,
+          "Name": "Contact Form Header",
+          "SortOrder": 1,
+          "Validation": null,
+          "VariesByCulture": false,
+          "VariesBySegment": false
+        },
+        {
+          "Key": "3b10c47d-c656-4b2e-9df1-8cdd54dcdff2",
+          "Alias": "pageTitle",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": "The title of the page, this is also the first text in a google search result. The ideal length is between 40 and 60 characters",
+          "Mandatory": true,
+          "Name": "Page Title",
+          "SortOrder": 0,
+          "Validation": null,
+          "VariesByCulture": false,
+          "VariesBySegment": false
+        },
+        {
+          "Key": "432c7214-8e45-46ce-9fae-9ad9026757df",
+          "Alias": "contactForm",
+          "DataType": "umb://data-type/59accdfbe0e74ff2b8ab4822b78d2c64",
+          "Description": "If Umbraco Forms is installed you'll be able to select a form",
+          "Mandatory": false,
+          "Name": "Pick a Contact Form",
+          "SortOrder": 3,
+          "Validation": null,
+          "VariesByCulture": false,
+          "VariesBySegment": false
+        },
+        {
+          "Key": "6a8e90f5-bbe0-4190-8a31-00dc3c1b544f",
+          "Alias": "contactIntro",
+          "DataType": "umb://data-type/ecbbac0d974e490cb533fead926dc525",
+          "Description": null,
+          "Mandatory": true,
+          "Name": "Contact Intro",
+          "SortOrder": 2,
+          "Validation": null,
+          "VariesByCulture": false,
+          "VariesBySegment": false
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/cf31001cf5584852af76d98e1b512fb1",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/59accdfbe0e74ff2b8ab4822b78d2c64",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/ecbbac0d974e490cb533fead926dc525",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/fc1475d27c7b4b2fbc5354c86fd43d6c",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/840959ce60a04d4dbcde6fa6c8270962",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://template/3da415b5c9fa45299014bb2341c14f4d",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "Contact",
+  "Alias": "contact",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "3.4.4"
+}

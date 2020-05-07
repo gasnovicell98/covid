@@ -1,0 +1,21 @@
+{
+  "File": "umb://template-file/contentPage.cshtml",
+  "Master": "umb://template/9a891e91ac76453196def0eaa8cde352",
+  "Udi": "umb://template/369d77fb48ea49cd8bc1ff74fea28334",
+  "Dependencies": [
+    {
+      "Udi": "umb://template/9a891e91ac76453196def0eaa8cde352",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://template-file/contentPage.cshtml",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "ContentPage",
+  "Alias": "contentPage",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.TemplateArtifact",
+  "__version": "3.4.4"
+}

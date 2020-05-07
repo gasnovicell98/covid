@@ -1,0 +1,90 @@
+{
+  "DefaultTemplate": null,
+  "AllowedTemplates": [],
+  "Icon": "icon-nodes color-black",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "IsContainer": false,
+  "Permissions": {
+    "AllowVaryingByCulture": false,
+    "AllowVaryingBySegment": false,
+    "AllowedAtRoot": false,
+    "IsElementType": false,
+    "AllowedChildContentTypes": []
+  },
+  "Parent": "umb://document-type-container/23cfc989b522414692cc3beede9a6c66",
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "ff06c5f5-3ccb-4563-9ba4-7a1ec415c711",
+      "Name": "Navigation & SEO",
+      "SortOrder": 0,
+      "PropertyTypes": [
+        {
+          "Key": "6eb12cf4-2a7d-4e8e-a72f-b16f8b883d73",
+          "Alias": "keywords",
+          "DataType": "umb://data-type/30c3522191b049a5a59942d1965161ea",
+          "Description": "Keywords that describe the content of the page. This is considered optional since most modern search engines don't use this anymore",
+          "Mandatory": false,
+          "Name": "Keywords",
+          "SortOrder": 1,
+          "Validation": null,
+          "VariesByCulture": false,
+          "VariesBySegment": false
+        },
+        {
+          "Key": "7ed0ef9a-3ae6-42e4-bf3e-045b97346766",
+          "Alias": "seoMetaDescription",
+          "DataType": "umb://data-type/c6bac0dd4ab945b18e30e4b619ee5da3",
+          "Description": "A brief description of the content on your page. This text is shown below the title in a google search result and also used for Social Sharing Cards. The ideal length is between 130 and 155 characters",
+          "Mandatory": false,
+          "Name": "Description",
+          "SortOrder": 0,
+          "Validation": null,
+          "VariesByCulture": false,
+          "VariesBySegment": false
+        },
+        {
+          "Key": "ca189950-0e44-4090-ace2-67fda3278972",
+          "Alias": "umbracoNavihide",
+          "DataType": "umb://data-type/92897bc6a5f34ffeae27f2e7e33dda49",
+          "Description": "If you don't want this page to appear in the navigation, check this box",
+          "Mandatory": false,
+          "Name": "Hide in Navigation",
+          "SortOrder": 2,
+          "Validation": null,
+          "VariesByCulture": false,
+          "VariesBySegment": false
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/840959ce60a04d4dbcde6fa6c8270962",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/30c3522191b049a5a59942d1965161ea",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/92897bc6a5f34ffeae27f2e7e33dda49",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/c6bac0dd4ab945b18e30e4b619ee5da3",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/23cfc989b522414692cc3beede9a6c66",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "Navigation Base",
+  "Alias": "navigationBase",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "3.4.4"
+}

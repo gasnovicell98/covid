@@ -1,0 +1,116 @@
+{
+  "DefaultTemplate": "umb://template/6a77f4fc00894e1ab75bea570f11b7c8",
+  "AllowedTemplates": [
+    "umb://template/6a77f4fc00894e1ab75bea570f11b7c8"
+  ],
+  "Icon": "icon-calendar color-black",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "IsContainer": false,
+  "Permissions": {
+    "AllowVaryingByCulture": false,
+    "AllowVaryingBySegment": false,
+    "AllowedAtRoot": false,
+    "IsElementType": false,
+    "AllowedChildContentTypes": []
+  },
+  "Parent": null,
+  "CompositionContentTypes": [
+    "umb://document-type/840959ce60a04d4dbcde6fa6c8270962"
+  ],
+  "PropertyGroups": [
+    {
+      "Key": "44e11eb3-94be-4ba7-8b76-9a8da75d276d",
+      "Name": "Content",
+      "SortOrder": 0,
+      "PropertyTypes": [
+        {
+          "Key": "1dc45ec7-9b1f-4570-b41a-849f60e6aabc",
+          "Alias": "excerpt",
+          "DataType": "umb://data-type/c6bac0dd4ab945b18e30e4b619ee5da3",
+          "Description": "Introduction to your blog post. This is also used in the summaries on the front of the blog as well as the homepage",
+          "Mandatory": true,
+          "Name": "Excerpt",
+          "SortOrder": 2,
+          "Validation": null,
+          "VariesByCulture": false,
+          "VariesBySegment": false
+        },
+        {
+          "Key": "6d1d5974-01f5-4b58-8665-9ec00a5e59da",
+          "Alias": "pageTitle",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": "The title of the page, this is also the first text in a google search result. The ideal length is between 40 and 60 characters",
+          "Mandatory": true,
+          "Name": "Page Title",
+          "SortOrder": 0,
+          "Validation": null,
+          "VariesByCulture": false,
+          "VariesBySegment": false
+        },
+        {
+          "Key": "cc35fb88-3536-4dfa-ab62-e1bd999002b3",
+          "Alias": "bodyText",
+          "DataType": "umb://data-type/ea0ed4c1c48943b89058a70babf430ff",
+          "Description": null,
+          "Mandatory": false,
+          "Name": "Content",
+          "SortOrder": 3,
+          "Validation": null,
+          "VariesByCulture": false,
+          "VariesBySegment": false
+        },
+        {
+          "Key": "f586ff44-17f9-4947-854d-3c203d50b80f",
+          "Alias": "categories",
+          "DataType": "umb://data-type/30c3522191b049a5a59942d1965161ea",
+          "Description": null,
+          "Mandatory": false,
+          "Name": "Categories (tags)",
+          "SortOrder": 1,
+          "Validation": null,
+          "VariesByCulture": false,
+          "VariesBySegment": false
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/a85ed5ae0a9d4278a19005405b216d08",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/30c3522191b049a5a59942d1965161ea",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/c6bac0dd4ab945b18e30e4b619ee5da3",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/ea0ed4c1c48943b89058a70babf430ff",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/840959ce60a04d4dbcde6fa6c8270962",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://template/6a77f4fc00894e1ab75bea570f11b7c8",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "Blogpost",
+  "Alias": "blogpost",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "3.4.4"
+}
